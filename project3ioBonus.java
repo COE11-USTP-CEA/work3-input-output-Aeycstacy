@@ -6,12 +6,12 @@ class project3ioBonus{
 	InputStreamReader q = new InputStreamReader(System.in);
 	BufferedReader j = new BufferedReader (q);
 	System.out.println("Enter height of the Triangle:");
-	double height =0.0
+	double height =0.0;
 	try{
-	    height=Integer.valueof(j.readLine());
+	    height=Integer.valueOf(j.readLine());
 	}
 	catch(Exception p){
-	    System.out.println("Invalid number!")
+	    System.out.println("Invalid number!");
 			
 	}
 	for(int w=1; w<=height; w++){
